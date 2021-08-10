@@ -1,0 +1,76 @@
+
+.item-completed{
+  position: relative;
+  background: #fff;
+  border-left: 4px solid #98C081;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: "Raleway";
+  cursor: pointer;
+  background-color: #D5E8D4;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transform: scale(0.98);
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+}
+
+.item-unCompleted{
+  background: #DAE8FC;
+  border-left: 4px solid #A5BBDC;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: "Raleway";
+  cursor: pointer;
+  animation: fadeIn 0.3s ease-in;
+  -webkit-animation: fadeIn 0.3s ease-in;
+}
+
+.item-completed::after{
+  position: absolute;
+  top: 17px;
+  right: 45px;
+  content: '(completed!)';
+  font-style: italic;
+  font-weight: bold;
+  }
+li i {
+    float: right;
+    color: #888;
+    cursor: pointer;
+    font-size: 37px;
+    transform: translateX(11px) translateY(-15px);
+    font-style: normal;
+    -webkit-transform: translateX(11px) translateY(-15px);
+    -moz-transform: translateX(11px) translateY(-15px);
+    -ms-transform: translateX(11px) translateY(-15px);
+    -o-transform: translateX(11px) translateY(-15px);
+}
+
+li i:hover {
+    font-weight: bold;
+    color: #ca03038c;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translate(0, 50px);
+      -webkit-transform: translate(0, 50px);
+      -moz-transform: translate(0, 50px);
+      -ms-transform: translate(0, 50px);
+      -o-transform: translate(0, 50px);
+}
+
+    100% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }

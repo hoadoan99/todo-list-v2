@@ -1,0 +1,25 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.todo-wrapper {
+    max-width: 30em;
+    margin: 4em auto;
+    position: relative;
+    background: #f4f4f4;
+    padding: 2em 3em;
+}
+
+.todo-wrapper h1 {
+    font-family: "Raleway";
+    color: #F97300;
+}
+
+.todo-wrapper .data {
+    margin-top: 1em;
+}
+
+

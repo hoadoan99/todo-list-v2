@@ -1,0 +1,52 @@
+ .input-group-text {
+  width: 21px;
+  height: 48px;
+  padding: 1em 23px;
+  color: #fff;
+  cursor: pointer;
+  background: #ffffff;
+  position: relative;
+}
+
+.input-group-wrapper {
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ .input-group-text:hover {
+  background-color: #f4f4f4;
+}
+
+ .input-group-text i {
+  font-size: 2em;
+  position: absolute;
+  left: 13px;
+  top: 6px;
+  color: #07aede;
+  line-height: 26px;
+}
+
+ .input-group-text:hover  .input-group-text i {
+  font-weight: bold;
+}
+
+ .form-control {
+  height: 3em;
+  font-family: "Raleway";
+  margin-right: 4px;
+}
+
+ .form-control:focus {
+  box-shadow: 0;
+}
+
+ .form-control {
+  height: 3em;
+  font-family: "Raleway";
+}
+
+ .form-control:focus {
+  box-shadow: 0;
+}

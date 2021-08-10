@@ -1,0 +1,7 @@
+<li
+     [ngClass]="changeColor ? 'item-completed' : 'item-unCompleted'"
+     (click)="handleStatus()">
+    {{task}}
+ <i (click)="handleDelete()">✕</i>
+</li>
+
